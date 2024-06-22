@@ -1,0 +1,908 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 1564px;
+    height: 72px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    opacity: 1;
+}
+
+.logo img {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    width: 211px;
+    height: 48px;
+    opacity: 1;
+}
+
+.nav-links {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    margin-right: 15px;
+    top: 23px;
+    left: 510px;
+    width: 663px;
+    height: 63px;
+    opacity: 1;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.dr img {
+    position: absolute;
+    top: 15px;
+    left: 1290px;
+    width: 44px;
+    height: 44px;
+    /* UI Properties */
+    /* background: transparent url('img/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.dr p {
+    position: absolute;
+    top: 18px;
+    left: 1340px;
+    width: 119px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.dr p1 {
+    position: absolute;
+    top: 35px;
+    left: 1340px;
+    width: 129px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.setting img {
+    position: absolute;
+    top: 25px;
+    left: 1470px;
+    width: 19px;
+    height: 20px;
+    opacity: 1;
+}
+
+.more img {
+    position: absolute;
+    top: 25px;
+    left: 1500px;
+    width: 4px;
+    height: 18px;
+    opacity: 1;
+}
+
+#jessicaInfo {
+    position: absolute;
+    /* Layout Properties */
+    top: 122px;
+    left: 18px;
+    width: 367px;
+    height: 1054px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+#jessicaInfo p {
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    width: 100px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.idd {
+    position: absolute;
+    top: 100px;
+}
+
+.JT img {
+    position: absolute;
+    top: 150px;
+    left: 38px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+
+.idd p1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 119px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.idd p2 {
+    position: absolute;
+    /* Layout Properties */
+    top: 70px;
+    left: 100px;
+    width: 68px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.mo img {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 4px;
+    height: 18px;
+    opacity: 1;
+}
+
+#graph {
+    position: absolute;
+    /* Layout Properties */
+    top: 122px;
+    left: 417px;
+    width: 766px;
+    height: 673px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+#graph p {
+    position: absolute;
+    /* Layout Properties */
+    top: 25px;
+    left: 40px;
+    width: 207px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#myChart {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 726px;
+    height: 298px;
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#rr {
+    /* Layout Properties */
+    position: absolute;
+    top: 415px;
+    left: 20px;
+    width: 228px;
+    height: 242px;
+    /* UI Properties */
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#rr img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 96px;
+    height: 96px;
+    /* UI Properties */
+    background: transparent url('img/respiratory rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rr h1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 130px;
+    left: 20px;
+    width: 125px;
+    height: 22px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#rr h2 {
+    position: absolute;
+    /* Layout Properties */
+    top: 150px;
+    left: 20px;
+    width: 109px;
+    height: 41px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#rr h3 {
+    position: absolute;
+    /* Layout Properties */
+    top: 210px;
+    left: 20px;
+    width: 46px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#temp {
+    position: absolute;
+    /* Layout Properties */
+    top: 415px;
+    left: 270px;
+    width: 228px;
+    height: 242px;
+    /* UI Properties */
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#temp img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 96px;
+    height: 96px;
+    /* UI Properties */
+    background: transparent url('img/respiratory rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#temp h1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 130px;
+    left: 20px;
+    width: 125px;
+    height: 22px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#temp h2 {
+    position: absolute;
+    /* Layout Properties */
+    top: 150px;
+    left: 20px;
+    width: 109px;
+    height: 41px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#temp h3 {
+    position: absolute;
+    /* Layout Properties */
+    top: 210px;
+    left: 20px;
+    width: 46px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#hr {
+    position: absolute;
+    /* Layout Properties */
+    top: 415px;
+    left: 520px;
+    width: 228px;
+    height: 242px;
+    /* UI Properties */
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#hr img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 96px;
+    height: 96px;
+    /* UI Properties */
+    background: transparent url('img/respiratory rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#hr h1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 130px;
+    left: 20px;
+    width: 125px;
+    height: 22px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#hr h2 {
+    position: absolute;
+    /* Layout Properties */
+    top: 150px;
+    left: 20px;
+    width: 109px;
+    height: 41px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#hr h3 {
+    position: absolute;
+    /* Layout Properties */
+    top: 210px;
+    left: 20px;
+    width: 150px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#list {
+    /* Layout Properties */
+    position: absolute;
+    top: 827px;
+    left: 417px;
+    width: 766px;
+    height: 349px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+#list p {
+    position: absolute;
+    /* Layout Properties */
+    top: 25px;
+    left: 40px;
+    width: 176px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#tab {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+
+    margin: 20px;
+    background-color: #f0f2f5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    /* background-color: #4CAF50; */
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* th, td {
+    border-bottom: 1px solid #ddd;
+} */
+#profile {
+    /* Layout Properties */
+    position: absolute;
+    top: 108px;
+    left: 1216px;
+    width: 367px;
+    height: 740px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.pt img {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    /* UI Properties */
+    background: transparent url('img/Layer 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+h1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    width: 164px;
+    height: 33px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: center;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.birth img {
+    position: absolute;
+    /* Layout Properties */
+    top: 350px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.birth p {
+    position: absolute;
+    /* Layout Properties */
+    top: 350px;
+    left: 80px;
+    width: 100px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.birth p1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 370px;
+    left: 80px;
+    width: 108px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.gen img {
+    position: absolute;
+    /* Layout Properties */
+    top: 420px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.gen p {
+    position: absolute;
+    /* Layout Properties */
+    top: 420px;
+    left: 80px;
+    width: 100px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.gen p1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 440px;
+    left: 80px;
+    width: 108px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.con img {
+    position: absolute;
+    /* Layout Properties */
+    top: 490px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.con p {
+    position: absolute;
+    /* Layout Properties */
+    top: 490px;
+    left: 80px;
+    width: 100px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.con p1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 510px;
+    left: 80px;
+    width: 108px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.eme img {
+    position: absolute;
+    /* Layout Properties */
+    top: 560px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.eme p {
+    position: absolute;
+    /* Layout Properties */
+    top: 560px;
+    left: 80px;
+    width: 150px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.eme p1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 580px;
+    left: 80px;
+    width: 108px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.ins img {
+    position: absolute;
+    /* Layout Properties */
+    top: 630px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.ins p {
+    position: absolute;
+    /* Layout Properties */
+    top: 630px;
+    left: 80px;
+    width: 150px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.ins p1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 650px;
+    left: 80px;
+    width: 200px;
+    height: 19px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.btn {
+    position: absolute;
+    /* Layout Properties */
+    top: 685px;
+    left: 80px;
+    width: 220px;
+    height: 41px;
+    /* UI Properties */
+    background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+}
+
+#result {
+    position: absolute;
+    top: 880px;
+    left: 1215px;
+    width: 367px;
+    height: 296px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+
+}
+
+#result p {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 176px;
+    height: 33px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+#tabb {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+#tabb table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(122, 37, 37, 0.1);
+}
+
+#tabb td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}

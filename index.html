@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="TestLogo/TestLogo.png" alt="">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#"><img src="home_FILL0_wght300_GRAD0_opsz24/home_FILL0_wght300_GRAD0_opsz24.png" alt="">
+                    Overview</a></li>
+            <li><a href="#patients"><img src="group_FILL0_wght300_GRAD0_opsz24/group_FILL0_wght300_GRAD0_opsz24.png"
+                        alt="">
+                    Patients</a></li>
+            <li><a href="#"><img
+                        src="calendar_today_FILL0_wght300_GRAD0_opsz24/calendar_today_FILL0_wght300_GRAD0_opsz24.png"
+                        alt="">
+                    Schedule</a></li>
+            <li><a href="#"><img src="chat_bubble_FILL0_wght300_GRAD0_opsz24/chat_bubble_FILL0_wght300_GRAD0_opsz24.png"
+                        alt="">
+                    Message</a></li>
+            <li><a href="#"><img src="credit_card_FILL0_wght300_GRAD0_opsz24/credit_card_FILL0_wght300_GRAD0_opsz24.png"
+                        alt="">
+                    Transactions</a></li>
+        </ul>
+        <a href="#" class="dr">
+            <p>Dr.Jose Simmons</p><br>
+            <p1>General Practitioner</p1><img
+                src="senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png"
+                alt="">
+        </a>
+        <a href="#" class="setting">
+            <img src="settings_FILL0_wght300_GRAD0_opsz24/settings_FILL0_wght300_GRAD0_opsz24.png" alt="">
+        </a>
+        <a href="#" class="more">
+            <img src="more_vert_FILL0_wght300_GRAD0_opsz24/more_vert_FILL0_wght300_GRAD0_opsz24@2x.png" alt="">
+        </a>
+    </div>
+    <div id="jessicaInfo">
+        <p>Patients</p>
+        <a href="#" class="idd">
+            <p1>Jessica Taylor</p1><br>
+            <p2>Female, 28</p2>
+            <a href="#" class="mo">
+                <img src="more_vert_FILL0_wght300_GRAD0_opsz24/more_vert_FILL0_wght300_GRAD0_opsz24@2x.png" alt="">
+            </a>
+            <a href="#" class="JT">
+                <img src="Layer 2 (1)/Layer 2.png" alt="">
+            </a>
+        </a>
+    </div>
+    <div id="graph">
+        <p>Diagnosis History</p>
+        <div id="myChart">
+        <canvas id="bloodPressureChart"></canvas></div>
+        <div id="rr">
+            <img src="respiratory rate/respiratory rate.png" alt="">
+            <h1>Respiratory Rate</h1>
+            <h2>20 bpm</h2>
+            <h3>Normal</h3>
+        </div>
+        <div id="temp">
+            <img src="temperature/temperature.png" alt="">
+            <h1>Temperature</h1>
+            <h2>98.6°F</h2>
+            <h3>Normal</h3>
+        </div>
+        <div id="hr">
+            <img src="HeartBPM/HeartBPM.png" alt="">
+            <h1>Heart Rate</h1>
+            <h2>78 bpm</h2>
+            <h3>Lower than Average</h3>
+        </div>
+    </div>
+    <div id="list">
+        <p>Diagnostic List</p>
+        <div id="tab">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Problem/Diagnosis</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hypertension</td>
+                        <td>Chronic high blood pressure</td>
+                        <td>Under Observation</td>
+                    </tr>
+                    <tr>
+                        <td>Type 2 Diabetes</td>
+                        <td>Insulin resistance and elevated blood sugar</td>
+                        <td>Cured</td>
+                    </tr>
+                    <tr>
+                        <td>Asthma</td>
+                        <td>Recurrent episodes of bronchial constriction</td>
+                        <td>Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="profile">
+        <a href="#" class="pt">
+            <img src="Layer 2/Layer 2.png" alt="">
+        </a>
+        <h1>Jessica Taylor</h1>
+        <a href="#" class="birth">
+            <p>Date of Birth</p><br>
+            <p1>August 23,1996</p1><img src="BirthIcon/BirthIcon.png" alt="">
+        </a>
+        <a href="#" class="gen">
+            <p>Gender</p><br>
+            <p1>Female</p1><img src="FemaleIcon/FemaleIcon.png" alt="">
+        </a>
+        <a href="#" class="con">
+            <p>Contact Info</p><br>
+            <p1>(415)555-1234</p1><img src="PhoneIcon/PhoneIcon.png" alt="">
+        </a>
+        <a href="#" class="eme">
+            <p>Emergency Contacts</p><br>
+            <p1>(415)555-5678</p1><img src="PhoneIcon/PhoneIcon.png" alt="">
+        </a>
+        <a href="#" class="ins">
+            <p>Insurance Provider</p><br>
+            <p1>Sunrise Health Assurance</p1><img src="InsuranceIcon/InsuranceIcon.png" alt="">
+        </a>
+        <button class="btn" type="button">Show All Information</button>
+    </div>
+    <div id="result">
+        <p>Lab Results</p>
+        <div id="tabb">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Blood Tests</td>
+                        <td><a href="#" class="">
+                                <img src="download_FILL0_wght300_GRAD0_opsz24 (1)/download_FILL0_wght300_GRAD0_opsz24 (1).png"
+                                    alt="">
+                            </a></td>
+                    </tr>
+                    <tr>
+                        <td>CTScans</td>
+                        <td><a href="#" class="">
+                                <img src="download_FILL0_wght300_GRAD0_opsz24 (1)/download_FILL0_wght300_GRAD0_opsz24 (1).png"
+                                    alt="">
+                            </a></td>
+                    </tr>
+                    <tr>
+                        <td>Radiology Reports</td>
+                        <td><a href="#" class="">
+                                <img src="download_FILL0_wght300_GRAD0_opsz24 (1)/download_FILL0_wght300_GRAD0_opsz24 (1).png"
+                                    alt="">
+                            </a></td>
+                    </tr>
+                    <tr>
+                        <td>X-Rays</td>
+                        <td><a href="#" class="">
+                                <img src="download_FILL0_wght300_GRAD0_opsz24 (1)/download_FILL0_wght300_GRAD0_opsz24 (1).png"
+                                    alt="">
+                            </a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="Chart.js"></script>
+</body>
+
+</html>
